@@ -1,0 +1,7 @@
+.Header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    /* Add more styling */
+  }
+  

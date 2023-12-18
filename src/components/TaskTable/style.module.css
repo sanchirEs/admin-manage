@@ -1,0 +1,10 @@
+.TaskTable {
+    width: 100%;
+    /* Add more styling */
+  }
+  
+  .TaskTable th, .task-table td {
+    padding: 10px;
+    /* Add more styling */
+  }
+  

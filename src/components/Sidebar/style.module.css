@@ -1,0 +1,22 @@
+.Sidebar {
+    width: 200px;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Add more styling */
+  }
+  
+  .NavItem {
+    display: block;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    /* Add more styling */
+  }
+  
+  .NavItem.active, .NavItem:hover {
+    background-color: #3A3A55;
+  }

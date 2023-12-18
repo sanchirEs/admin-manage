@@ -1,0 +1,10 @@
+.home-page {
+    display: flex;
+    /* Add more styling */
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    /* Add more styling */
+  }
+  

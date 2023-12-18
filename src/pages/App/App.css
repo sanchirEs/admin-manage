@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif; /* Example font */
+  color: #fff;
+  background-color: #1E1E2D; /* Dark background */
 }
 
 .App-logo {
