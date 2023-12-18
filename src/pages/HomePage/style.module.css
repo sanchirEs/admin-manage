@@ -1,10 +1,10 @@
 .home-page {
-    display: flex;
-    /* Add more styling */
-  }
-  
-  .main-content {
-    flex-grow: 1;
-    /* Add more styling */
-  }
-  
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}

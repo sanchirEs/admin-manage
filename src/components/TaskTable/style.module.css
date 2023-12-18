@@ -1,10 +1,19 @@
 .TaskTable {
-    width: 100%;
-    /* Add more styling */
-  }
-  
-  .TaskTable th, .task-table td {
-    padding: 10px;
-    /* Add more styling */
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.TaskTable th, .TaskTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.TaskTable th {
+  background-color: #f4f4f4;
+}
+
+.TaskTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

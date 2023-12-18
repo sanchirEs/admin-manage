@@ -1,11 +1,12 @@
 import React from 'react';
-import css from "./style.module.css"; // Assuming you have a corresponding CSS file
+import { Link } from 'react-router-dom';
+import css from './style.module.css';
 
 const Sidebar = () => {
   return (
     <div className={css.Sidebar}>
-      <div className={css.NavItem}>Dashboard</div>
-      <div className={css.NavItem}>Report</div>
+      <Link to="/" className={css.NavItem}>Dashboard</Link>
+      <Link to="/reports" className={css.NavItem}>Report</Link>
       {/* Add other navigation items here */}
     </div>
   );

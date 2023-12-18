@@ -1,14 +1,10 @@
 import React from 'react';
-import css from "./style.module.css"; // Assuming you have a corresponding CSS file
+import css from './style.module.css';
 
-const TaskTable = () => {
-  // Dummy data, replace with your actual data source
-  const tasks = [
-    { description: 'Task 1', status: 'Completed' },
-    { description: 'Task 2', status: 'In Progress' },
-    // Add more tasks
-  ];
 
+
+const TaskTable = ({ tasks = [] }) => {
+  // Replace with actual data fetching logic
   return (
     <table className={css.TaskTable}>
       <thead>

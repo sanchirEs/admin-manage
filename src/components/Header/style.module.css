@@ -1,7 +1,18 @@
-.Header {
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    /* Add more styling */
+.Header, .main-content {
+  margin-left: 250px; /* Adjusted for the sidebar */
+  transition: margin-left 0.3s; /* Smooth transition for responsiveness */
+}
+
+@media screen and (max-width: 768px) {
+  .Header, .main-content {
+    margin-left: 60px; /* Adjust margin when sidebar is smaller */
   }
-  
+}
+
+
+.searchBar {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+}
