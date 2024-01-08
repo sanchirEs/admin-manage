@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../../components/Sidebar';
 import Header from '../../components/Header';
-import TaskTable from '../../components/TaskTable';
-import './style.module.css';
-
-const tasks = [
-  { description: 'Task 1', status: 'Completed' },
-  // ... other tasks
-];
+//import  css from './style.module.css';
 
 const HomePage = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -18,11 +12,10 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
-      <Sidebar />
+      <Sidebar isOpen={sidebarOpen}/>
       <div className="main-content">
         <Header />
-        <TaskTable  tasks={tasks}/>
-        <button onClick={toggleSidebar}>Toggle Sidebar</button>
+        <button onClick={toggleSidebar} aria-label="Toggle Sidebar">Toggle Sidebar</button>
       </div>
     </div>
   );
